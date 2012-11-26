@@ -1,0 +1,11 @@
+name = Taxonomy terms
+core = 7.x
+package = OC
+php = 5.2.4
+version = 7.x-0.1
+project = taxonomy_terms
+dependencies[] = ctools
+dependencies[] = page_manager
+features[ctools][] = page_manager:pages_default:1
+features[features_api][] = api:1
+features[page_manager_handlers][] = term_view_panel_context
